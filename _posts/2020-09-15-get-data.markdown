@@ -1,0 +1,5 @@
+---
+layout: reloadData
+categories: jekyll
+permalink: "/:categories/my-data/"
+---
