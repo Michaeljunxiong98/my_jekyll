@@ -3,7 +3,7 @@
 
 
 {% for post in site.posts %}
-    <li><a href="{{ 'my_jekyll' | append: post.url }}">{{ post.title }}</a></li>
+    <li><a href="{{ 'my_jekyll' | prepend: post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 
 {% for person in site.data.people %}
